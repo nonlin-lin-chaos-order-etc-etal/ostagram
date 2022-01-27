@@ -1,19 +1,19 @@
-=Ostagram
+# Ostagram
 Данное web-приложение является web надстройкой над программой по обработке изображения нейронными сетями. Для создания картин используется сверточные
 нейронные сети и алгоритм художественно стиля by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. Более подробно с этим можно ознакомиться по ссылке на GitHub ниже.
 
-This program presents web-service for algorithm combining the content of one image with the style of another image using convolutional neural networks.
+This program is a web service for algorithm combining the content of one image with the style of another image using convolutional neural networks.
 
-==Requirements
+## Requirements
 
 Test with Rails 4.2
 
 
-==Installation
+## Installation
 
 Для работы web-приложения необходимо создать config.secret в папке config примерно со следующим содержанием:
 
----
+```yaml
 token:
   production: - ключ сессии
 
@@ -27,7 +27,6 @@ workservers:
     iteration_count: 10 - количество итераций обработки
     admin_email: "почта_админа@gmail.com"
 
-
 smtp_settings:
   address: 'smtp.gmail.com'
   port: 587
@@ -36,8 +35,8 @@ smtp_settings:
   password: 'пароль'
   authentication: 'plain'
   enable_starttls_auto: true
+```
 
-
-==More Information
+## More Information
 
 Для обработки используется данный алгоритм https://github.com/jcjohnson/neural-style
