@@ -4,9 +4,25 @@
 # Edited by HypnosisItoopie
 
 tasks:
-  - init: bin/setup
+  - name: rails init
+    init: bin/setup
     command: |
       bundle install
       bin/rails server
-
-
+  # - name: Install, start node, and deploy
+  #   init: yarn
+  #   command: npx hardhat node
+  - name: install deps
+    command: |
+      echo tbd
+  - name: Deploy all and start server
+    command: |
+      # export CLIENT_URL="$(gp url 3001)"
+      # gp await-port 8545
+      # npx hardhat run scripts/deploy.js --network localhost
+      # npm run dev
+      echo tbd
+    openMode: tab-after
+ports:
+  - port: 3000-3001
+    visibility: public
