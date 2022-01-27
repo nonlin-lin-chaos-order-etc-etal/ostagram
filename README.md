@@ -4,6 +4,16 @@
 
 This program is a web service for algorithm combining the content of one image with the style of another image using convolutional neural networks.
 
+## Running this project
+
+### Gitpod
+
+To deploy this project to Gitpod, click this link to deploy:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/nonlin-lin-chaos-order-etc-etal/ostagram)
+
+
+
 ## Requirements
 
 Test with Rails 4.2
@@ -39,4 +49,4 @@ smtp_settings:
 
 ## More Information
 
-Для обработки используется данный алгоритм https://github.com/jcjohnson/neural-style
+The neural network used is https://github.com/jcjohnson/neural-style
