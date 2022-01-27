@@ -28,7 +28,7 @@ gem 'bootstrap-sass', '~> 3.3.5'
 
 #gem 'devise', '~> 3.5.2'
 
-gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave', ref: '3a0978a390de9d96d05e5befc40b2fabc27644cc'
 
 gem 'mini_magick'
 

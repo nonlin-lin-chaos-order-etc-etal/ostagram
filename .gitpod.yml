@@ -7,6 +7,8 @@ tasks:
   - name: rails init
     init: bin/setup
     command: |
+      gem install bundler:2.0.0.pre.3
+      bundle _2.0.0.pre.3_ update
       bundle install
       bin/rails server
   # - name: Install, start node, and deploy
