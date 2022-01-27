@@ -8,7 +8,7 @@ This program is a web service for algorithm combining the content of one image w
 
 ### Gitpod
 
-To deploy this project to Gitpod, click this link to deploy:
+To deploy this project to Gitpod, click this link:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/nonlin-lin-chaos-order-etc-etal/ostagram)
 
